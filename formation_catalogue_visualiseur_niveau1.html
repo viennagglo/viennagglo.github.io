@@ -24,6 +24,10 @@
         .bold {
             font-weight: bold !important;
         }
+        .img-light {
+            border: none !important;
+            margin: 0 !important;
+        }
     </style>
 </head>
  
@@ -47,13 +51,16 @@
 
         <section id="objectifs">
             <h2>Objectifs visés par cette formation :</h2>
-            <blockquote class="fragment">
+            <blockquote class="fragment mini">
+                <h4>Partie 1</h4>
                 Rechercher l'existence d'une donnée via le catalogue, consulter et exporter sa fiche de métadonnées, la visualiser, la télécharger.
             </blockquote>
-            <blockquote class="fragment">
+            <blockquote class="fragment mini">
+                 <h4>Partie 2</h4>
                 Ajouter une couche d'informations dans le visualiseur ( à partir du catalogue GeoViennAgglo, à partir d'un serveur OGC distant pré-enregistré ou non).
             </blockquote>
-            <blockquote class="fragment">
+            <blockquote class="fragment mini">
+                 <h4>Partie 3</h4>
                 Manipuler une couche d'informations dans le visualiseur de GeoViennAgglo et utiliser les fonctionnalités de base (zoom, mesure, affichage/désaffichage de couches, ordre des couches, géolocalisation, impression, enregistrement de cartes, etc.).
             </blockquote>
         </section>
@@ -256,7 +263,7 @@
                 <h3>A partir du visualiseur en pointant sur un serveur OGC externe (WMS/WFS/WMTS) :</h3>
                 <p>Il est également possible de visualiser une donnée stockée sur un serveur OGC distant</p>
                 <img src="images/formation_catalogue_visualiseur_niveau1/geoviennagglo-slide-21.jpg" />
-                <p>Toujours dans « ajouter des couches », vous pouvez cliquer sur l'onglet "Ajouter des couches (WMS)" et 2 possibilités s'offrent à vous.</p>                
+                <p>Toujours dans "Ajouter des couches", vous pouvez cliquer sur l'onglet "Ajouter des couches (WMS)" et 2 possibilités s'offrent à vous.</p>                
             </section>
             <section>
                 <h3>A partir du visualiseur en pointant sur un serveur OGC externe (WMS/WFS/WMTS) (Suite) :</h3>                
@@ -272,58 +279,112 @@
             </section>
 
             <section>
-                <h3>A partir d'un fichier</h3>
+                <h3>A partir d'un fichier (mode Expert) :</h3>
+                <p class="mini">Toujours dans "Ajouter des couches", vous pouvez cliquer sur l'onglet "Fichier".</p>
+                <img src="images/formation_catalogue_visualiseur_niveau1/geoviennagglo-slide-24.jpg" height="350px" />
+                <p class="bold">Il est possible de charger les formats suivants :</p>
+                <p>Shape et MIF via un zip de tous les fichiers associés à ces formats ou encore un fichier KML (Google Earth) et/ou GML</p>
+                <h3>FIN DE LA PARTIE 2</h3>
             </section>
         </section>
 
         <section>
             <section>
                 <h1>PARTIE 3</h1>
-                <h2>Maîtriser les fonctionnalités de base du visualiseur</h2>
+                <h2>Maîtriser les fonctionnalités de base du visualiseur</h2>                
             </section>           
 
             <section>
-                <h3>Zoomer/mesurer.</h3>
+                <h3>Zoomer/mesurer</h3>
+                <p>Tous les outils de zoom et de mesure sont situés en haut à gauche de la fenêtre du visualiseur</p>
+                <img src="images/formation_catalogue_visualiseur_niveau1/geoviennagglo-slide-25.jpg" />
+            </section>
+            <section>
+                <h3>Zoomer/mesurer (Suite)</h3>
+                <p>Le détail des outils concernés est le suivant :</p>
+                <table class="mini">
+                    <tr>
+                        <td valign="middle"><img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/icon_zoomfull.png" /></td>
+                        <td>Zoom sur l'étendue globale de la carte. Dans le cas de GeoViennAgglo, celle-ci correspond à l'étendue de ViennAgglo.</td>
+                    </tr>
+                    <tr>
+                        <td><img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/icon_pan.png" /></td>
+                        <td>Glisser/se déplacer sur la carte en conservant le zoom actuel</td>
+                    </tr>
+                    <tr>
+                        <td><img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/icon_zoomin.png" /></td>
+                        <td>Zoom avant. Pour zoomer en dessinant un cadre, utiliser touche Maj + souris</td>
+                    </tr>
+                    <tr>
+                        <td><img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/icon_zoomout.png" /></td>
+                        <td>Zoom arrière.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/resultset_previous.png" />
+                        </td>
+                        <td>Revenir à l'emprise précédente.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/mapfish/resultset_next.png" />
+                        </td>
+                        <td>Aller à l'emprise suivante.</td>
+                    </tr>
+                    <tr>
+                        <td><img class="img-light" src="images/formation_catalogue_visualiseur_niveau1/geoviennagglo-slide-26.jpg" /></td>
+                        <td>Se déplacer à zoom constant en direction nord, sud est ou ouest.</td>
+                    </tr>
+                </table>
             </section>
 
             <section>
-                <h1>Gérer des couches</h1>              
+                <h1>Gérer des couches</h1>
             </section>
 
             <section>
                 <h3>Supprimer une couche</h3>
+                <p>L'outil sens interdit permet de supprimer la couche présente dans le visualiseur</p>
             </section>
 
             <section>
                 <h3>Afficher/désafficher une couche</h3>
+                <p>Cocher/décocher la couche pour l'afficher et/ou la désafficher</p>
             </section>
 
             <section>
                 <h3>Changer l'ordre des couches</h3>
+                <p>Les flèches montante et descendante permettent d'agir sur l'ordre d'une couche. On peut aussi changer l'ordre des couches par glisser-déposer.</p>
             </section>
 
             <section>
                 <h3>Interroger une couche</h3>
+                <p>L'outil d'identification permet de consulter les informations descriptives liées à un objet de la couche pointé à la souris.</p>
             </section>
 
             <section>
                 <h3>Recentrer sur la couche</h3>
+                <p>Le bouton « Actions> Recentrer sur la couche » permet de zoomer sur l'étendue de la couche visée</p>
             </section>
 
             <section>
                 <h3>Recharger la couche</h3>
+                <p>Le bouton « Actions> Recharger la couche » permet de redessiner une couche (ex. si problème d'affichage d'écran)</p>
             </section>
 
             <section>
                 <h3>Gérer la transparence d'une couche</h3>
+                <p>Le curseur sur la barre permet de gérer le pourcentage de visibilité d'une couche</p>
             </section>
 
             <section>
                 <h3>Consulter la fiche de métadonnées d'une couche visible</h3>
+                <p>Le bouton « Actions> Afficher les métadonnées » permet de dérouler le menu et d'accéder à la fiche de métadonnées de la couche concernée</p>
             </section>
 
             <section>
                 <h3>Construire une requête</h3>
+                <p>Le bouton « Actions> Construire une requête » permet de sélectionner des éléments d'une couche à partir de leurs informations descriptives et/ou de critères spatiaux (cf. manuel du visualiseur niveau 2)</p>
             </section>
 
             <section>
